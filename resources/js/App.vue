@@ -1,5 +1,10 @@
 <template>
-    <div>App</div>
+    <div>
+        App
+        <router-link to="index">Index</router-link>
+        <router-link to="page">Page</router-link>
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>
